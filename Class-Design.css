@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #3B21A1;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Header{
+    width: 100%;
+    height: 106px;
+    top: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    background-color: #341F87;
+    border-bottom: white;
+    border-width: 1.2px;
+}
+.MainBody{
+    height: 1962px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #3B21A1;
+}
+.Top{
+    padding-top: 136px;
+    height: 1203px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.Category{
+    margin-left: 7%;
+    width: 28%;
+    height: 824px;
+    display: flex;
+    flex-direction: column;
+    background-color: #341F87;
+    border-radius: 10px;
+}
+.Classes{
+    width: 55%;
+    height: 912px;
+    margin-left: 6%;
+    background-color: blueviolet;
+}
+.Recommend{
+    margin-top: 155px;
+    width: 100%;
+    height: 351px;
+    background-color: aquamarine;
+}
+.Footer{
+    margin-top: 126px;
+    width: 1440px;
+    height: 365px;;
+    background-color:#3C1FB0;
+}
+.CategorySort{
+    margin-top: 45px;
+    background-color: #341F87;
+    height: 100%;
+    width: 100%;
+}
+.CategoryName{
+    font-family:'Varela Round', sans-serif;
+    color: white;
+    border-radius: 30px;
+    border: 0.5px solid rgba(127, 255, 212, 0.394);
+    background-color: rgba(33, 13, 112, 0.83);
+    box-sizing: border-box;
+    height: 54px;
+    width: 94%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right:2% ;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.CategoryAmount{
+    display: flex;
+    justify-content: end;
+}
+.textsort1{
+    background-color: rgba(33, 13, 112, 0.83);
+    font-weight: 700;
+    padding-left: 20px;
+}.textsort2 {
+    background-color: rgba(33, 13, 112, 0.83);
+    font-weight: 400;
+    font-size: small;
+    padding-right: 10px;
+}
