@@ -1,8 +1,5 @@
-
-
-
 window.onload = function () {
-    const header = ` <header>
+  const header = ` <header>
 <nav id="navbar">
     <a class="logo" href="homePage.html">
         <img src="../images/homepage_img/logo3.png" alt="">
@@ -18,9 +15,8 @@ window.onload = function () {
 
 </nav>
 </header>`;
-    const hd = document.querySelector('.header1');
-    hd.innerHTML = header;
-
-}
+  const hd = document.querySelector(".header1");
+  hd.innerHTML = header;
+};
 // hd.innerHTML = header
 // hd.innerHTML = `<div>Baagi</div>`
