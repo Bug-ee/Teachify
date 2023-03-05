@@ -5,7 +5,7 @@ window.onload = function () {
         <img src="../images/homepage_img/logo3.png" alt="">
     </a>
     <ul class="Pages">
-        <li><a href="homePage.html"> Нүүр хуудас </a></li>
+        <li><a href="/"> Нүүр хуудас </a></li>
         <li><a href="./pages/mentor.html">Менторууд</a></li>
         <li><a href="./pages/Class-Structure.html">Сургалтууд</a></li>
         <li><a href="./pages/members.html">Сурагчид</a></li>

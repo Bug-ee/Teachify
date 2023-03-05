@@ -4,19 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
 body {
     font-family: 'Varela Round', sans-serif;
 }
+
 body {
     width: 100%;
     height: auto;
 }
+
 header {
     background-color: #341F87;
     width: 100%;
     border-bottom: 1px solid white;
 }
+
 #navbar {
     display: flex;
     flex-direction: row;
@@ -25,6 +29,7 @@ header {
     margin: auto;
     height: 96px;
 }
+
 #navbar .logo {
     display: flex;
     justify-content: left;
@@ -32,6 +37,7 @@ header {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .logo img {
     width: 262px;
 }
