@@ -9,7 +9,7 @@ window.onload = function () {
         <li><a href="./pages/mentor.html">Менторууд</a></li>
         <li><a href="./pages/Class-Structure.html">Сургалтууд</a></li>
         <li><a href="./pages/members.html">Сурагчид</a></li>
-        <li class="login1"><a href="homePage.html">Нэвтрэх</a></li>
+        <li class="login1"><a href="/">Нэвтрэх</a></li>
 
     </ul>
 

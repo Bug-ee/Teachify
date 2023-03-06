@@ -1,19 +1,19 @@
 const names = [
   { name: "Заяадэлгэр", who: "teacher" },
   { name: "Тэмүүжин", who: "teacher" },
-  { name: "Намсрай", who: "teacher" },
-  { name: "Тодсүрэн", who: "teacher" },
-  { name: "Цэрэнтогтох", who: "teacher" },
+  { name: "Намсрай", who: "teacher,mentor" },
+  { name: "Тодсүрэн", who: "teacher,mentor" },
+  { name: "Цэрэнтогтох", who: "teacher,mentor" },
 ];
 const result = document.querySelector(".section1");
 document.addEventListener("DOMContentLoaded", function () {
   const shownames = names
     .map((el) => {
       return `
-        <div class="card">
+        <button class="card" onclick=play>
         <div class="name">${el.name}</div>
         <div class="who">${el.who}</div>
-        </div>
+        </button>
         `;
     })
     .join("");
