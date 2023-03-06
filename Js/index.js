@@ -6,9 +6,9 @@ window.onload = function () {
     </a>
     <ul class="Pages">
         <li><a href="/"> Нүүр хуудас </a></li>
-        <li><a href="./pages/mentor.html">Менторууд</a></li>
-        <li><a href="./pages/Class-Structure.html">Сургалтууд</a></li>
-        <li><a href="./pages/members.html">Сурагчид</a></li>
+        <li><a href="../pages/mentor.html">Менторууд</a></li>
+        <li><a href="../pages/Class-Structure.html">Сургалтууд</a></li>
+        <li><a href="../pages/members.html">Сурагчид</a></li>
         <li class="login1"><a href="/">Нэвтрэх</a></li>
 
     </ul>
