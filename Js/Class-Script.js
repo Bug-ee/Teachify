@@ -28,7 +28,8 @@ const samplevid = [
     { Video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", Student: 616, Name:'Top 5 moments in history', Mentor:'UnderSimply'},
     { Video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", Student: 16, Name:'Sussiest moment in kindergarder', Mentor:'Top -1st'},
     { Video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", Student: 1028, Name:'Why this new movie that i know nothing about suck', Mentor:'Moovie unenjoyer'},
-    { Video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", Student: 102, Name:'Sheesh', Mentor:'Seesh.corp'},
+    { Video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", Student: 102, Name: 'Sheesh', Mentor: 'Seesh.corp' },
+    { Video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", Student: 1, Name:'Crushes what are they and how to handle deez nuts', Mentor:'Love Guru Money Bags'},
 ]
 const classvid = document.querySelector('.Classes')
 document.addEventListener('DOMContentLoaded', function () {
