@@ -26,17 +26,20 @@
 .Category{
     margin-left: 7%;
     width: 28%;
-    height: 824px;
+    height: 870px;
     display: flex;
     flex-direction: column;
     background-color: #341F87;
     border-radius: 10px;
 }
 .Classes{
+    display: flex;
     width: 55%;
     height: 912px;
     margin-left: 6%;
-    background-color: blueviolet;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .Recommend{
     margin-top: 155px;
@@ -81,7 +84,8 @@
     background-color: rgba(33, 13, 112, 0.83);
     font-weight: 700;
     padding-left: 20px;
-}.textsort2 {
+}
+.textsort2 {
     background-color: rgba(33, 13, 112, 0.83);
     font-weight: 400;
     font-size: small;
@@ -89,18 +93,24 @@
 }
 .Class{
     display: flex;
+    margin-top: 15px;
     width: 245px;
     height: 247px;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: rgb(225, 225, 225);
+    border-radius: 11px;
+}
+.InnerCard{
+    margin: auto;
+    width: 95%;
+    height: 240px;
+    /* background-color: rgb(244, 244, 244); */
     border-radius: 11px;
 }
 .ClassThumbnail {
     display: flex;
-    width: 90%;
     height: 130px; 
     background-color: burlywood;
-    margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -109,12 +119,18 @@
     width: 80%;
     height: 12px;
     color: lightslategray;
+    margin-top: 5px;
     font-size: small;
+    font-family: 'Garamond', serif;
 }
 .ClassName {
     display: flex;
     width: 80%;
     height: 50px;
+    margin-top: 10px;
+    color: rgb(0, 0, 53);
+    font-weight: 700;
+    font-family:'Merriweather', sans-serif;
 }
 .ClassMentor{
     display: flex;
@@ -122,4 +138,6 @@
     height: 12px;
     color: lightslategray;
     font-size: small;
+    margin-top: 5px;
+    font-family: 'Garamond', serif;
  }
