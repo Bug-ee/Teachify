@@ -46,3 +46,20 @@ document.addEventListener('DOMContentLoaded', function () {
     }).join("")
     classvid.innerHTML=vids
 })
+const recommend = document.querySelector('.Recommend')
+document.addEventListener('DOMContentLoaded', function () {
+    const RecVid = samplevid.map((el, ind) => {
+        return`
+        <div class="ClassRec">
+          <div class="InnerCardRec">
+            <div class="ClassThumbnailRec"><video controls>
+                <source src=${el.Video} type="video/mp4">
+              </video></div>
+            <div class="ClassNumRec">${el.Student} students</div>
+            <div class="ClassNameRec">${el.Name}</div>
+            <div class="ClassMentorRec">${el.Mentor}</div>
+          </div>
+        </div>`
+    }).join("")
+    recommend.innerHTML = RecVid
+})
