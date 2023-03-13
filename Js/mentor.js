@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const shownames = names
     .map((el) => {
       return `
-        <button class="card" onclick=play>
+        <button class="card" onclick="play()">
         <div class="name">${el.name}</div>
         <div class="who">${el.who}</div>
         </button>
@@ -19,3 +19,23 @@ document.addEventListener("DOMContentLoaded", function () {
     .join("");
   result.innerHTML = shownames;
 });
+const introduction = [
+  {
+    videourl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/DotEDU_domain_logo.svg/1200px-DotEDU_domain_logo.svg.png",
+    intro: "nbnbnbnbnb",
+  },
+];
+
+function play() {
+  const run = document.querySelector(".section2");
+  console.log("dsfsddsf");
+  const showvideos = introduction.map((el) => {
+    return `
+  <div class="video">
+  <img src="${el.videourl}"/>
+  <div class="text">${el.intro}</div>
+  </div>`;
+  });
+  run.innerhtml = showvideos;
+}

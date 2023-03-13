@@ -26,23 +26,29 @@
 .Category{
     margin-left: 7%;
     width: 28%;
-    height: 824px;
+    height: 870px;
     display: flex;
     flex-direction: column;
     background-color: #341F87;
     border-radius: 10px;
 }
 .Classes{
+    display: flex;
     width: 55%;
     height: 912px;
     margin-left: 6%;
-    background-color: blueviolet;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-x: scroll
 }
 .Recommend{
+    display: flex;
     margin-top: 155px;
     width: 100%;
     height: 351px;
-    background-color: aquamarine;
+    background: radial-gradient(rgb(49, 95, 210), #3B21A1 70%);
+    overflow-y: scroll
 }
 .Footer{
     margin-top: 126px;
@@ -81,7 +87,8 @@
     background-color: rgba(33, 13, 112, 0.83);
     font-weight: 700;
     padding-left: 20px;
-}.textsort2 {
+}
+.textsort2 {
     background-color: rgba(33, 13, 112, 0.83);
     font-weight: 400;
     font-size: small;
@@ -89,31 +96,101 @@
 }
 .Class{
     display: flex;
-    width: 27%;
+    margin-top: 15px;
+    width: 245px;
     height: 247px;
     flex-direction: column;
+    background-color: #341F87;
+    border-radius: 11px;
+}
+.InnerCard{
+    margin: auto;
+    width: 95%;
+    height: 240px;
+    /* background-color: rgb(244, 244, 244); */
+    border-radius: 11px;
 }
 .ClassThumbnail {
     display: flex;
-    width: 100%;
-    height: 247px;
-    flex-direction: column;
+    height: 130px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .ClassNum {
     display: flex;
-    width: 100%;
-    height: 247px;
-    flex-direction: column;
+    width: 80%;
+    height: 12px;
+    color: rgb(167, 177, 187);
+    margin-top: 5px;
+    font-size: small;
+    font-family: 'Garamond', serif;
 }
 .ClassName {
     display: flex;
-    width: 100%;
-    height: 247px;
-    flex-direction: column;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    color: #ffff;
+    font-weight: 700;
+    font-family:'Merriweather', sans-serif;
 }
 .ClassMentor{
-        display: flex;
-        width: 100%;
-        height: 247px;
-        flex-direction: column;
+    display: flex;
+    width: 80%;
+    height: 12px;
+    color: rgb(167, 177, 187);
+    font-size: small;
+    margin-top: 5px;
+    font-family: 'Garamond', serif;
  }
+.ClassRec {
+    display: flex;
+    margin-top: 15px;
+    width: 245px;
+    height: 247px;
+    flex-direction: column;
+    background-color: rgb(225, 225, 225);
+    border-radius: 11px;
+    margin:auto;
+    margin-left: 100px;
+}
+.InnerCardRec {
+    margin: auto;
+    width: 95%;
+    height: 240px;
+    /* background-color: rgb(244, 244, 244); */
+    border-radius: 11px;
+}
+.ClassThumbnailRec {
+    display: flex;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ClassNumRec {
+    display: flex;
+    width: 80%;
+    height: 12px;
+    color: lightslategray;
+    margin-top: 5px;
+    font-size: small;
+    font-family: 'Garamond', serif;
+}
+.ClassNameRec {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    color: rgb(0, 0, 53);
+    font-weight: 700;
+    font-family: 'Merriweather', sans-serif;
+}
+.ClassMentorRec {
+    display: flex;
+    width: 80%;
+    height: 12px;
+    color: lightslategray;
+    font-size: small;
+    margin-top: 5px;
+    font-family: 'Garamond', serif;
+}
