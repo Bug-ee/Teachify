@@ -100,7 +100,7 @@
     width: 245px;
     height: 247px;
     flex-direction: column;
-    background-color: rgb(225, 225, 225);
+    background-color: #341F87;
     border-radius: 11px;
 }
 .InnerCard{
@@ -113,7 +113,6 @@
 .ClassThumbnail {
     display: flex;
     height: 130px; 
-    background-color: burlywood;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -121,7 +120,7 @@
     display: flex;
     width: 80%;
     height: 12px;
-    color: lightslategray;
+    color: rgb(167, 177, 187);
     margin-top: 5px;
     font-size: small;
     font-family: 'Garamond', serif;
@@ -131,7 +130,7 @@
     width: 80%;
     height: 50px;
     margin-top: 10px;
-    color: rgb(0, 0, 53);
+    color: #ffff;
     font-weight: 700;
     font-family:'Merriweather', sans-serif;
 }
@@ -139,7 +138,7 @@
     display: flex;
     width: 80%;
     height: 12px;
-    color: lightslategray;
+    color: rgb(167, 177, 187);
     font-size: small;
     margin-top: 5px;
     font-family: 'Garamond', serif;
