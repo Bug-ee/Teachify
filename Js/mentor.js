@@ -46,18 +46,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function play(videourl) {
-  console.log("sss");
-  console.log(videourl);
   const run = document.querySelector(".section2");
-  // console.log("dsfsaaddsf");
-  const showvideos = `
+  const showvideos = names
+    .map((element) => {
+      return `
   <div class="video">
-  <p>${videourl}</p>
-  <img src="${videourl}"/>
+  <p>${element.videourl}</p>
+  <img src="${element.videourl}"/>
   </div>`;
-
+    })
+    .join("");
   run.innerhtml = showvideos;
-  console.log(showvideos);
 }
 
 var requestOptions = {
@@ -65,7 +64,7 @@ var requestOptions = {
   redirect: "follow",
 };
 
-// fetch("http://localhost:3000/hello", requestOptions)
-//   .then((response) => response.text())
-//   .then((result) => console.log(result))
-//   .catch((error) => console.log("error", error));
+fetch("http://localhost:50/more", requestOptions)
+  .then((response) => response.json())
+  .then(result) => console.log(result)
+  .catch((error) => console.log("error", error));

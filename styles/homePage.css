@@ -131,7 +131,7 @@ header {
 .hour100 {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 20px;
 }
 
 .container-Column3 img {
@@ -152,16 +152,227 @@ header {
 .Expert {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 20px;
+
 }
 
 .All-training {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 20px;
 }
 
-.container-Event {
+
+#container-Event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3B21A1;
+}
+
+.Events-cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.container-title h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 50px auto;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.Event-tittle {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.event-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 38%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Event-man1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Event-man1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.Event-man1 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 120px;
+    margin: 20px 20px 0px 30px;
+}
+
+.Event-man1 h5 {
+    margin-top: 6px;
+    margin-left: 62px;
+    font-size: medium;
+    color: rgb(44, 42, 42);
+}
+
+.Event-man1 p {
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: rgb(65, 58, 58);
+}
+
+.Event-tittle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 20px;
+
+}
+
+.Event-tittle h3 {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #00beab;
+}
+
+.Event-tittle p {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-right: 8px;
+    color: rgba(0, 0, 0, 0.815);
+    line-height: 110%;
+
+}
+
+.Event-tittle button {
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    background-color: #05dbc6;
+    margin-top: 35px;
+    margin-left: 160px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.event-button {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    color: white;
+    padding: 8px 20px;
+}
+
+
+
+.event-2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 38%;
+    height: auto;
+    margin-left: 12%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Event-man2 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.Event-man2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.Event-man2 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 120px;
+    margin: 20px 20px 0px 30px;
+}
+
+.Event-man2 h5 {
+    margin-top: 6px;
+    margin-left: 62px;
+    font-size: medium;
+    color: rgb(44, 42, 42);
+}
+
+.Event-man2 p {
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: rgb(65, 58, 58);
+}
+
+.event-2 .Event-tittle button {
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    background-color: #05dbc6;
+    margin-top: 50px;
+    margin-left: 160px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+#About-teachify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #05dbc6;
+
+}
+
+#About-teachify h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+#About-teachify p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    line-height: 160%;
+    color: white;
 }
