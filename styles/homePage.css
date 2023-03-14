@@ -77,28 +77,30 @@ header {
 
 .Hello img {
     display: flex;
-    width: 90%;
+    width: 80%;
     height: auto;
     margin-top: 150px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-left: 12%;
     justify-content: left;
 
 }
 
-.Hello h3 {
+.Hello h5 {
     display: flex;
-    width: 65%;
+    width: 80%;
     height: auto;
     margin-left: 12%;
-    line-height: 169%;
-    font-weight: 100;
+    line-height: 116%;
     color: white;
+    font-size: 16px;
+    font-weight: 100;
+
 }
 
 .Spin-World img {
     display: flex;
-    width: 80%;
+    width: 72%;
     height: auto;
     margin-top: 50px;
     margin-bottom: 0px;
@@ -119,6 +121,36 @@ header {
     to {
         transform: rotate(360deg);
     }
+}
+
+.Enter {
+    margin-left: 12%;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.email1 {
+    width: 55%;
+    background-color: #ffffff;
+    border: 3px solid #00beab;
+    border-radius: 18px;
+    padding-left: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.Start {
+    width: 80px;
+    margin-left: -90px;
+    color: #ffffff;
+    background-color: #00beab;
+    border: 1px solid #00beab;
+    border-radius: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding: 5px;
 }
 
 .container-Column3 {
@@ -374,5 +406,79 @@ header {
     margin-bottom: 40px;
     letter-spacing: 1px;
     line-height: 160%;
+    color: white;
+}
+
+#footer {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    background-color: #341F87;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+.logo-footer {
+    width: 272px;
+    height: auto;
+    display: flex;
+    margin-left: 5.5rem;
+    margin-bottom: 1rem;
+
+
+
+}
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+
+}
+
+.loc img {
+    width: 18px;
+    margin-right: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 13px;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+
+}
+
+.mail img {
+    width: 18px;
+    margin-right: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    color: white;
+    font-size: 13px;
+
+}
+
+.call img {
+    width: 18px;
+    margin-right: 10px;
+    justify-content: center;
     color: white;
 }

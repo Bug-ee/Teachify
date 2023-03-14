@@ -112,9 +112,13 @@
 }
 .ClassThumbnail {
     display: flex;
-    height: 130px; 
+    height: 130px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+video{
+    width: 233px;
+    height: 131px;
 }
 .ClassNum {
     display: flex;
@@ -143,7 +147,7 @@
     margin-top: 5px;
     font-family: 'Garamond', serif;
  }
-.ClassRec {
+/* .ClassRec {
     display: flex;
     margin-top: 15px;
     width: 245px;
@@ -158,7 +162,6 @@
     margin: auto;
     width: 95%;
     height: 240px;
-    /* background-color: rgb(244, 244, 244); */
     border-radius: 11px;
 }
 .ClassThumbnailRec {
@@ -193,4 +196,4 @@
     font-size: small;
     margin-top: 5px;
     font-family: 'Garamond', serif;
-}
+} */
