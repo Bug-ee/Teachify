@@ -32,23 +32,34 @@ const names = [
 ];
 const result = document.querySelector(".section1");
 document.addEventListener("DOMContentLoaded", function () {
-  const shownames = names
-    .map((el) => {
-      return `
-        <button class="card" onclick="play('  ${el.videourl} ')">
+  console.log("dsgdfgfdg");
+  fetch("http://localhost:50/more")
+    .then((res) => {
+      return res.json();
+    })
+    .then((json) => {
+      const shownames = json
+        .map((el) => {
+          return `
+        <button class="card" onclick="play()">
         <div class="name">${el.name}</div>
-        <div class="who">${el.who}</div>
+        <div class="who">${el.email}</div>
         </button>
         `;
-    })
-    .join("");
-  result.innerHTML = shownames;
+        })
+        .join("");
+      result.innerHTML = shownames;
+    });
 });
+// .catch((error) => console.log("error", error));
+console.log("sfsdfsdfsdfsd");
 
-function play(videourl) {
-  const run = document.querySelector(".section2");
+function play() {
+  console.log(names);
+  const run = document.getElementById("section2");
   const showvideos = names
     .map((element) => {
+      console.log("aaa");
       return `
   <div class="video">
   <p>${element.videourl}</p>
@@ -63,8 +74,3 @@ var requestOptions = {
   method: "GET",
   redirect: "follow",
 };
-
-fetch("http://localhost:50/more", requestOptions)
-  .then((response) => response.json())
-  .then(result) => console.log(result)
-  .catch((error) => console.log("error", error));
