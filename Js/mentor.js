@@ -66,5 +66,5 @@ var requestOptions = {
 
 fetch("http://localhost:50/more", requestOptions)
   .then((response) => response.json())
-  .then(result) => console.log(result)
+  .then((result) => console.log(result))
   .catch((error) => console.log("error", error));
