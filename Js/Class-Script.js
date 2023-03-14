@@ -10,7 +10,12 @@ const categoryname=[
 ]
 const mySide=document.querySelector('.CategorySort')
 document.addEventListener('DOMContentLoaded',function(){
-    const reveal=categoryname.map((el,ind)=>{
+    fetch('http://localhost:3000/fds')
+        .then((res) => {
+            return res.json();
+            console.log(res) 
+        })
+    const reveal = categoryname.map((el, ind) => {
         return`
         <div class="CategoryName">
             <p class="textsort1">${el.name}</p>
