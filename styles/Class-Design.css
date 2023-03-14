@@ -112,9 +112,13 @@
 }
 .ClassThumbnail {
     display: flex;
-    width: 260px;
+    height: 130px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+video{
+    width: 233px;
+    height: 131px;
 }
 .ClassNum {
     display: flex;
