@@ -6,7 +6,7 @@ const names = [
       "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2023/02/23142013/Alaskan-Malamute-puppy-laying-down-outdoors.jpg",
   },
   {
-    name: "Тэмүүжинs",
+    name: "Тэмүүжин",
     who: "teacher",
     videourl:
       "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2023/02/23142013/Alaskan-Malamute-puppy-laying-down-outdoors.jpg",
@@ -55,19 +55,19 @@ document.addEventListener("DOMContentLoaded", function () {
 console.log("sfsdfsdfsdfsd");
 
 function play() {
-  console.log(names);
-  const run = document.getElementById("section2");
+  console.log(data.json);
+  const run = document.querySelector(".section2");
   const showvideos = names
     .map((element) => {
       console.log("aaa");
       return `
   <div class="video">
-  <p>${element.videourl}</p>
-  <img src="${element.videourl}"/>
+  <p>${element.name}</p>
+  <div>${element.who}</div>
   </div>`;
     })
     .join("");
-  run.innerhtml = showvideos;
+  run.innerHTML = showvideos;
 }
 
 var requestOptions = {
