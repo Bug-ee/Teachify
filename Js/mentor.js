@@ -32,12 +32,6 @@ const names = [
 ];
 const result = document.querySelector(".section1");
 document.addEventListener("DOMContentLoaded", function () {
-<<<<<<< HEAD
-  const shownames = names
-    .map((el) => {
-      return `
-        <button class="card" onclick="play('  ${el.videourl} ')">
-=======
   console.log("dsgdfgfdg");
   fetch("http://localhost:50/more")
     .then((res) => {
@@ -48,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .map((el) => {
           return `
         <button class="card" onclick="play()">
->>>>>>> 2f1138c25a3d9c134ae37335fa7c6faa0ffd3d02
         <div class="name">${el.name}</div>
         <div class="who">${el.email}</div>
         </button>
@@ -58,13 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
       result.innerHTML = shownames;
     });
 });
-<<<<<<< HEAD
-
-function play(videourl) {
-  const run = document.querySelector(".section2");
-  const showvideos = names
-    .map((element) => {
-=======
 // .catch((error) => console.log("error", error));
 console.log("sfsdfsdfsdfsd");
 
@@ -74,7 +60,6 @@ function play() {
   const showvideos = names
     .map((element) => {
       console.log("aaa");
->>>>>>> 2f1138c25a3d9c134ae37335fa7c6faa0ffd3d02
       return `
   <div class="video">
   <p>${element.name}</p>
@@ -89,11 +74,3 @@ var requestOptions = {
   method: "GET",
   redirect: "follow",
 };
-<<<<<<< HEAD
-
-fetch("http://localhost:50/more", requestOptions)
-  .then((response) => response.json())
-  .then(result) => console.log(result)
-  .catch((error) => console.log("error", error));
-=======
->>>>>>> 2f1138c25a3d9c134ae37335fa7c6faa0ffd3d02
