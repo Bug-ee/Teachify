@@ -54,6 +54,7 @@ header {
 
 }
 
+
 .Pages li a {
     text-decoration: none;
     color: white;
@@ -61,10 +62,18 @@ header {
 }
 
 .login1 {
-    background-color: aqua;
-    padding: 8px 18px;
+    background-color: #00beab;
     border-radius: 8px;
-    box-shadow: 15px rgb(49, 49, 49);
+
+}
+
+.login1 a {
+    background-color: #00beab;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 15px #00beab;
 }
 
 #container-Hello {
@@ -401,9 +410,9 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 250px;
-    margin-left: 250px;
-    margin-bottom: 40px;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
     letter-spacing: 1px;
     line-height: 160%;
     color: white;
@@ -411,8 +420,9 @@ header {
 
 #footer {
     display: flex;
+    /* justify-content: space-between; */
     height: 300px;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #341F87;
 }
 
@@ -481,4 +491,63 @@ header {
     margin-right: 10px;
     justify-content: center;
     color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 4.3rem;
+    margin-left: 8.5rem;
+}
+
+.links h3 {
+    color: white;
+    margin-bottom: 3.3rem;
+}
+
+.links li {
+    margin-bottom: 0.5rem;
+    text-align: left;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-top: 4.3rem;
+    margin-left: 8rem;
+
+
+}
+
+.social-links h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 3.3rem;
+
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 2rem;
+}
+
+.social-links img {
+    width: 30px;
+    margin-right: 3rem;
+
+
 }
