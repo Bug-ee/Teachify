@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `
     }).join("")
     mySide.innerHTML= reveal
-    fetch('https://pe.tomujin.digital//fds')
+    fetch('https://pe.tomujin.digital/fds')
         .then(res => res.json())
         .then(json => {
             data=json
