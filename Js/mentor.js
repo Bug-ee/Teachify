@@ -2,7 +2,7 @@ const result = document.querySelector(".section1");
 let arr;
 document.addEventListener("DOMContentLoaded", function () {
   console.log("dsgdfgfdg");
-  fetch("http://localhost:50/more")
+  fetch("https://pe.tomujin.digital/more")
     .then((res) => {
       return res.json();
     })
